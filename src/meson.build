@@ -2,4 +2,6 @@
 # *** Main files ***
 # ******************
 
-main_sources = files('Main.java')
+main_sources = files(
+	'Main.java'
+)
