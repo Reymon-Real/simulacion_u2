@@ -29,8 +29,12 @@ simulacion = jar(
 	main_class: 'Main'
 )
 
+# ******************
+# *** Run target ***
+# ******************
+
 run_target(
-	'simulacion_u2',
+	'run',
 	command: [
 		'java', '-jar', 'simulacion_u2.jar'
 	]

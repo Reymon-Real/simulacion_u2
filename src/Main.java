@@ -3,28 +3,52 @@ import javax.swing.*;
 
 public class Main {
 
-	// Standar Values
+	// **********************
+	// *** Standar Values ***
+	// **********************
+
 	static Dimension dim;
 	static BorderLayout layout;
 
-	// JButton
+	// **************
+	// *** JButton ***
+	// **************
+
 	static JButton lineal;
 	static JButton aditivo;
 	static JButton multi_const;
 	static JButton multi_congru;
 	static JButton goback;
 
-	// JLabel
+	// **************
+	// *** JLabel ***
+	// **************
+
 	static JLabel selec;
 	static JLabel semilla;
 	static JLabel iteracion;
 
-	// JPanel
+	// **************
+	// *** JPanel ***
+	// **************
+
 	static JPanel topPanel;
 	static JPanel centerPanel;
 	static JPanel mainPanel;
 
+	// **************
+	// *** JFrame ***
+	// **************
+
+	static JFrame frame;
+
+	// *********************
+	// *** Main function ***
+	// *********************
+
 	public static void main(String[] args) {
+
+	// Set System propierties
 
 		System.setProperty("sun.java2d.uiScale", "2.0"); // Escala al 200%
 
@@ -79,7 +103,7 @@ public class Main {
 		mainPanel.add(centerPanel, BorderLayout.CENTER);
 
 	// JFrame Config
-		JFrame frame = new JFrame("Simulación Unidad 2");
+		frame = new JFrame("Simulación Unidad 2");
 		
 		frame.setSize(dim);
 		frame.setResizable(true);
